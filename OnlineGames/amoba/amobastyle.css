@@ -1,0 +1,62 @@
+body{
+    min-height: 98vh;
+}
+
+#main{
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 453px;
+    height: 453px;
+}
+
+#table{
+    transform: translateY(25%);
+    border-collapse: collapse;
+}
+
+#win{
+    transform: translateY(350%);
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.cellhover:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.border1{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+/*Help*/
+#help{
+    position: absolute;
+    top: 250px;
+    padding-left: 25px;
+    color: black;
+    width: 225px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #f5ddc4;
+}
+
+a:any-link{
+    color: blue;
+}

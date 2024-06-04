@@ -1,0 +1,60 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    text-align: center;
+    color: black;
+    font-size: large;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.navimg {
+    height: 30px;
+    float: left;
+    
+    transform: translateY(25%);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidenav {
+    text-align: left;
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #d3b683;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0s;
+    transition-delay: 0.15s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    transition-delay: 0s;
+}
+
+.sidenav .btn {
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition: 0s;
+}
