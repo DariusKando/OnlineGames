@@ -1,0 +1,37 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="jatek.css" />
+	</head>
+	<body>
+		<div id="valaszt">
+			<label for="options">Choose board size:</label>
+
+			<select id="options" name="options" onchange="Setup()">
+				<option value="" disabled selected>Choose size</option>
+				<option value="7_6">7x6 (classic)</option>
+				<option value="8_7">8x7</option>
+				<option value="8_8">8x8</option>
+				<option value="9_7">9x7</option>
+				<option value="9_9">9x9</option>
+			</select>
+		</div>
+
+		<h1 id="who" hidden>Red's turn</h1>
+		<div id="container" hidden></div>
+
+		<div id="popup" hidden>
+			<button class='glowing-btn' onclick="closePopup()"><span class='glowing-txt'>A<span class='faulty-letter'>G</span>AIN</span></button>
+		</div>
+		<div id="mainmenu">
+			<a href="../main/main.html">Főoldal</a>
+		</div>
+
+		<script src="jatek.js"></script>
+	</body>
+</html>
